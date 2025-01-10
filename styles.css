@@ -235,3 +235,15 @@
   border-radius: 16px;
   padding: 48px 24px 48px 24px;
 }
+nav button :hover {
+    background-color: lightgray;
+    color: black;
+    transition: 1s;
+}
+
+
+.section-5 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+} 
