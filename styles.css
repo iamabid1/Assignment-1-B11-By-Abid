@@ -7,7 +7,7 @@
   color: green;
   padding: 8px 12px 8px 12px;
   background: white;
-  margin-top: 30px;  
+  margin-top: 30px;
 }
 .start h3 {
   color: black;
@@ -48,8 +48,8 @@
   margin-right: 50px;
 }
 .btn-to-do {
-    position: relative;
-    position: absolute;
+  position: relative;
+  position: absolute;
 }
 .btn-1 {
   border-radius: 8px;
@@ -61,15 +61,177 @@
   cursor: pointer;
 }
 .btn-1 :hover {
-    background: lightgray;
-    color: black;
+  background: lightgray;
+  color: black;
 }
 /* Section 2  */
 .section-2 {
-    margin-left: 50px;
-    margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-bottom: 80px;
 }
-.section-2 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0%;
+
+.piller-1 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  gap: 15px;
+  padding: 24px;
+  width: 300px;
+  height: 500px;
+}
+.piller-2 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  gap: 15px;
+  padding: 24px;
+  width: 300px;
+  height: 500px;
+}
+.piller-3 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  gap: 15px;
+  padding: 24px;
+  width: 300px;
+  height: 500px;
+}
+.piller-4 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  gap: 15px;
+  padding: 24px;
+  width: 300px;
+  height: 500px;
+}
+.sec-extra {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+}
+.TVOF {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+}
+.TVOF p {
+  width: 1280px;
+  height: 48px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.future-1 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+  padding: 20px 20px 20px 20px;
+  width: 410.67px;
+}
+.future-2 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  padding: 20px 20px 20px 20px;
+  width: 410.67px;
+}
+.future-3 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(247, 235, 207);
+  padding: 20px 20px 20px 20px;
+  width: 410.67px;
+}
+/* Shared Buttons Learn More  */
+
+.section-3 {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 18px;
+  margin-bottom: 50px;
+}
+.section p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(14, 14, 14, 0.7);
+}
+.btn-lm-1 {
+  border-radius: 8px;
+  color: white;
+  padding: 11px 20px 11px 20px;
+  width: 122px;
+  height: 41px;
+  border: none;
+  background: rgb(84, 144, 245);
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-lm-2 {
+  border-radius: 8px;
+  color: white;
+  padding: 11px 20px 11px 20px;
+  width: 122px;
+  height: 41px;
+  border: none;
+  background: rgb(9, 161, 92);
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-lm-3 {
+  border-radius: 8px;
+  color: white;
+  padding: 11px 20px 11px 20px;
+  width: 122px;
+  height: 41px;
+  border: none;
+  background: rgb(255, 194, 57);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-lm-1 :hover {
+    background: lightgray;
+    color: black;
+    transition: 1s;
+}
+.button :hover {
+    background: lightgray;
+    color: black;
+    transition: 1s;
+}
+
+
+.main-title {
+  background-image: url(assets/quote-bg.png);
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 100px;
+}
+.yunus-work {
+  color: rgba(14, 14, 14, 0.6);
+  width: 1232px;
+  height: 96px;
+}
+.yunus {
+  font-weight: bold;
+}
+.section-4 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 48px 24px 48px 24px;
 }
