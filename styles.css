@@ -1,0 +1,59 @@
+.start {
+  display: flex;
+  justify-content: space-between;
+}
+.start div a button {
+  border: 1px solid rgb(0, 106, 80);
+  color: green;
+  padding: 8px 12px 8px 12px;
+  background: white;
+}
+.start h3 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.tdntd {
+  text-decoration: none;
+  color: black;
+}
+.tdnt :hover {
+  color: lightgreen;
+  transition: 1s;
+}
+.section-1 p {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.hs1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  position: static;
+  width: 622px;
+  height: 201px;
+  /* display: flex; */
+}
+.section-1 {
+  display: flex;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  margin: 80px 0px;
+  padding: 80px 100px 80px 100px;
+}
+.btn-to-do {
+    position: relative;
+    position: absolute;
+}
+.btn-1 {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: white;
+  padding: 9px 20px 9px 20px;
+}
+.img-1 {
+    
+}
