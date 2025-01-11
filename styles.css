@@ -1,7 +1,7 @@
-.start {
+ /* .start {
   display: flex;
   justify-content: space-between;
-}
+} 
 .start div a button {
   border: 1px solid rgb(0, 106, 80);
   color: green;
@@ -19,13 +19,30 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
 }
-.tdntd {
-  text-decoration: none;
-  color: black;
-}
 .tdnt :hover {
   color: lightgreen;
   transition: 1s;
+}  */
+.kjscl {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-left: 50px;
+  }
+  .start {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+.button-su-container {
+  display: flex;
+  margin-right: 50px;
+}
+.button-su {
+  box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+padding: 15px 30px 15px 30px;
+color: rgb(4, 154, 4);
 }
 .section-1 p {
   color: rgba(14, 14, 14, 0.5);
@@ -379,6 +396,12 @@ nav button :hover {
   justify-content: center;
   margin-top: 80px;
 }
+.section-7 p {
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
 .main-sec7 {
   font-family: Arial, Helvetica, sans-serif;
   gap: 24;
@@ -390,10 +413,10 @@ align-items: space-between;
 }
 .main-sec7 h2 {
   box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
-padding: 40px 40px 40px 40px ;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 40px 40px 40px 40px ;
 }
 .h2-s7-1:hover {
   background-color: rgb(198, 228, 214);s;
@@ -410,4 +433,105 @@ padding: 40px 40px 40px 40px ;
 .h2-s7-4:hover {
   background-color: rgb(198, 228, 214);s;
   transition: 1s;
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+.input-ammount {
+  padding: 20px 400px 20px 400px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  border: none;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.btn-dn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btn-dn-m {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+.btn-dn-m:hover {
+  background-color: lightblue;
+  color: black;
+  transition: 1s;
+}
+.kjdfghkdf {
+  color: rgb(14, 14, 14);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.klsgjblkasddbfkl {
+  color: rgba(14, 14, 14, 0.7);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.lszjkdfsg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wpntsy {
+  text-align: center;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input-email {
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  padding: 14px 25px 14px 35px;
+  border: none;
+}
+.button-subs {
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  padding: 13px 28px 13px 28px;
+  color: white;
+  border: none;
+}
+.button-subs:hover {
+  background-color: lightblue;
+  color: rgb(62, 0, 0);
+  font-weight: bold;
+  transition: 1s;
+}
+.sec-8 {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 80px 100px 80px 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 80px;
+}
+.slhvgashvlsdh {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 50px 160px 50px 160px;
+  margin-bottom: 50px;
 }
